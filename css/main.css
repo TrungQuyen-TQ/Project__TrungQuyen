@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif !important;
+    
+    
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+    color: #434343;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.box header{
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 1170px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+
+}
+
+header label::after{
+    font-family: Material Icons;
+    content: "\e8b6";
+    padding: 13px 20px;
+    background-color: #434343;
+    color: #fff;
+    position: absolute;
+    border-radius: 0 4px 4px 0 ;
+}
+
+.box header label{
+    margin-left: 100px;
+}
+
+.box header input{
+    width: 280px;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #ececec;
+}
+
+.box header button {
+    background-color: #ef683a;
+    padding: 4px 50px;
+    margin-left: 100px;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    
+}
+
+.box header div{
+    min-width: 200px;
+}
+
+.box header div::after{
+    content:"\e313";
+    font-family: Material Icons;
+    position: absolute;
+    
+}
+
+.box header span img{
+    width: 70px;
+    height: 50px;
+    position: relative;
+    top: 0px;
+    flex-shrink: 1;
+    
+}
+
+.box header span{
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+
+.box header span:hover{
+    cursor: pointer ;
+}
+
+.box header  img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.box header p{
+    
+}
+ 
+.zero{
+    background-color: #ef683a;
+    position: relative;
+    color: #ececec;
+    padding: 4px;
+    font-size: small;
+    border-radius: 50%;
+    bottom:  15px;
+    left: 36px;
+
+}
+
+.box header div{
+    color: #333333;
+    
+}
+
+.box section .categoryFeature::after {
+    content:"\e313";
+    font-family: Material Icons;
+    position: absolute;
+    top: 3px;
+    font-weight: 800;
+}
+
+.box section{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.box section .categoryFeature{
+    padding-bottom: 20px;
+    font-weight: 400;
+    margin: 0 20px;
+}
+
+.box section .menu {
+    display: flex;
+}
+
+.box .homeManage{
+    background-color: #f5f5f5;
+    margin: 0;
+    display: block;
+    width: auto;
+    padding: 5px 0 5px 0px;
+}
+.box .homeManage .menu .item{
+    padding-right: 3px;
+    opacity: 0.8;
+}
+.box .Assessment__customer {
+    text-transform: uppercase;
+}
+
+.box .Assessment__customer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box .Assessment__customer{
+    display: flex;
+    flex-direction: column;
+}
+
+.box .Assessment__customer .collection__bar span {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.collection__bar {
+    margin: 50px 0;
+}
+
+.box .Assessment__customer .collection__bar select { 
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ececec;
+}
+
+.box .Assessment__customer .Findter__item {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+
+.box .Assessment__customer .Findter__item:last-child{
+    margin: 20px 0;
+}
+
+.box .Assessment__customer .Findter__item:first-child {
+    border: 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.box header .nut3d{
+    
+    margin-left: 100px;
+    width: 90px;
+    padding: 5px ;
+    border: 1px solid #ef683a;
+    background-color: #ef683a;
+    color: #fff;
+    text-align: center;
+    min-width: 100px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 2px 2px 0;
+}
+
+.box header{
+    position: relative;
+}
+
+.box header .nut3d::after{
+    content: none;
+}
+
+.box .row{
+    position: relative;
+}
+
+.box header span div p{
+    font-weight: 300;
+    font-size: small;
+}
+.box header span div a {
+    font-weight: 500;
+    padding: 7px 0;
+    font-size: small;
+}
